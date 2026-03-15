@@ -23,8 +23,8 @@ El circuito está compuesto por **cuatro etapas de amplificación**:
 | Transistores de potencia | TIP41C |
 | Número de etapas | 4 |
 | Tipo de amplificador | Clase A discreto |
-| Carga | 4 Ω |
-| Ganancia aproximada | 235 – 400 |
+| Carga | 6 Ω |
+| Ganancia aproximada | 285 |
 
 ---
 
@@ -75,6 +75,7 @@ Comando utilizado:
 ````
 .ac dec 100 1 1Meg
 ````
+![Simulación temporal](Simulacion_AC.jpeg)
 
 ---
 
