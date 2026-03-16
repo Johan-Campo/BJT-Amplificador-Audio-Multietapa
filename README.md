@@ -171,6 +171,25 @@ El documento incluye:
 
 ---
 
+---
+
+# Presentación del Proyecto
+
+También se encuentra disponible la **presentación utilizada para la exposición del proyecto**, donde se resumen los aspectos más importantes del diseño del amplificador.
+
+🎞️ **[Ver presentación del amplificador](Presentacion_Amplificador.pdf)**
+
+La presentación incluye:
+
+- Descripción del problema
+- Arquitectura del amplificador multietapa
+- Explicación de cada etapa del circuito
+- Análisis teórico de ganancia
+- Resultados de simulación
+- Implementación y pruebas con el parlante
+
+---
+
 #  Netlist SPICE
 
 ```spice
