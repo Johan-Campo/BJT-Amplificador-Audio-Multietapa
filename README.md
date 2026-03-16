@@ -40,6 +40,9 @@ El circuito está compuesto por **cuatro etapas de amplificación**:
 Las dos primeras etapas generan la mayor parte de la **ganancia de voltaje**, mientras que las últimas etapas permiten **entregar mayor corriente a la carga**.
 
 ---
+# Documentación del Proyecto
+
+📄 [Informe completo en PDF](Informe_Amplificador.pdf)
 
 #  Esquema del Circuito
 
@@ -149,6 +152,25 @@ P ≈ 5.28 W
 
 ---
 
+---
+
+# Informe del Proyecto
+
+El informe completo del diseño, análisis teórico y simulación del amplificador se encuentra disponible en el siguiente archivo:
+
+📄 **[Descargar Informe del Amplificador](Informe_Amplificador.pdf)**
+
+El documento incluye:
+
+- Análisis teórico de cada etapa del amplificador
+- Cálculo de la ganancia utilizando modelo de pequeña señal
+- Justificación de los valores de resistencias y capacitores
+- Explicación del funcionamiento de cada etapa
+- Resultados de simulación en SPICE
+- Verificación experimental del circuito
+
+---
+
 #  Netlist SPICE
 
 ```spice
@@ -223,3 +245,29 @@ R12 OUT 0 4
 .tran 0 100m
 
 .end
+````  
+---
+
+# Autores
+
+**Proyecto:** Amplificador Multietapa  
+
+**Carol Valentina Castellanos Jaimes**  
+**Johan Alejandro Campo Pabón**  
+**Jairo José Córdoba Musso**  
+**Diego Alejandro Martelo Ramírez**  
+**Pedro Regalao Valencia**  
+
+Estudiantes de **Ingeniería Electrónica**  
+Universidad del Magdalena  
+Santa Marta, Colombia  
+
+**Correos electrónicos:**
+
+- cvcastellanos@unimagdalena.edu.co  
+- jacampop@unimagdalena.edu.co  
+- jjcordoba@unimagdalena.edu.co  
+- pregalao@unimagdalena.edu.co  
+- dmartelo@unimagdalenam.edu.co  
+
+---
