@@ -58,24 +58,94 @@ Comando utilizado en SPICE:
 ````
 .tran 0 100m
 ````
+
 Resultado de la simulación:
 
 ![Simulación temporal](Simulacion_Tran.jpeg)
 
-En esta gráfica se puede observar la señal de entrada y la señal de salida amplificada.
+En esta gráfica se puede observar la **señal de entrada** y la **señal de salida amplificada**.
 
 ---
 
 #  Respuesta en Frecuencia (.ac)
 
-El análisis AC permite estudiar la ganancia del amplificador en función de la frecuencia.
+El análisis AC permite estudiar la **ganancia del amplificador en función de la frecuencia**.
 
 Comando utilizado:
 
 ````
 .ac dec 100 1 1Meg
 ````
-![Simulación temporal](Simulacion_AC.jpeg)
+
+Resultado de la simulación:
+
+![Respuesta en frecuencia](Simulacion_AC.jpeg)
+
+Esta gráfica permite analizar:
+
+- Ganancia del amplificador
+- Banda de frecuencia de operación
+- Comportamiento del circuito en diferentes frecuencias
+
+---
+
+#  Punto de Operación (Operating Point)
+
+El punto de operación fue obtenido mediante el análisis `.op` en SPICE.
+
+## Voltajes DC en nodos
+
+| Nodo | Voltaje |
+|-----|--------|
+| V(b1) | 2.316 V |
+| V(b2) | 1.925 V |
+| V(b3) | 11.841 V |
+| V(c1n) | 5.803 V |
+| V(c2n) | 1.212 V |
+| V(e1) | 1.532 V |
+| V(e2) | 1.127 V |
+| V(e4) | 10.135 V |
+| V(n3) | 11.048 V |
+| Vcc | 24 V |
+
+---
+
+## Corrientes en los transistores
+
+| Transistor | Ib | Ic | Ie |
+|-----------|------|------|------|
+| Q1 | 15 µA | 1.516 mA | 1.531 mA |
+| Q2 | 120 µA | 2.279 mA | 2.399 mA |
+| Q3 | 21 µA | 2.113 mA | 2.135 mA |
+| Q4 | 2.135 mA | 213.5 mA | 215.6 mA |
+
+---
+
+## Corrientes principales en resistencias
+
+| Resistencia | Corriente |
+|-------------|-----------|
+| R7 | 215.6 mA |
+| R8 | 1.531 mA |
+| R9 | 1.516 mA |
+| R10 | 2.399 mA |
+| R11 | 2.279 mA |
+
+---
+
+## Consumo total del circuito
+
+Corriente suministrada por la fuente:
+
+I(VCC) ≈ 0.220 A
+
+
+Potencia aproximada consumida:
+
+P ≈ V × I, 
+P ≈ 24V × 0.220A, 
+P ≈ 5.28 W
+
 
 ---
 
@@ -153,4 +223,3 @@ R12 OUT 0 4
 .tran 0 100m
 
 .end
-
