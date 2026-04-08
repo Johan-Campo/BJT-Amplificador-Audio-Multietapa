@@ -267,26 +267,14 @@ R12 OUT 0 4
 ````  
 ---
 
-# Autores
+# Autore
 
 **Proyecto:** Amplificador Multietapa  
 
-**Carol Valentina Castellanos Jaimes**  
 **Johan Alejandro Campo Pabón**  
-**Jairo José Córdoba Musso**  
-**Diego Alejandro Martelo Ramírez**  
-**Pedro Regalao Valencia**  
 
-Estudiantes de **Ingeniería Electrónica**  
+**Ingeniería Electrónica**  
 Universidad del Magdalena  
 Santa Marta, Colombia  
-
-**Correos electrónicos:**
-
-- cvcastellanos@unimagdalena.edu.co  
-- jacampop@unimagdalena.edu.co  
-- jjcordoba@unimagdalena.edu.co  
-- pregalao@unimagdalena.edu.co  
-- dmartelo@unimagdalenam.edu.co  
 
 ---
