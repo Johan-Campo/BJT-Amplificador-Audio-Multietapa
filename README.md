@@ -267,7 +267,7 @@ R12 OUT 0 4
 ````  
 ---
 
-# Autore
+# Autor
 
 **Proyecto:** Amplificador Multietapa  
 
